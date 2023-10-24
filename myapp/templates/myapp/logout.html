@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+{% block body %}
+
+<h2 class="text-3xl font-normal mb-2 text-black-500 m-10">You've been Logged Out</h2>
+       
+<div class="pt-10">
+    <a class="bg-green-500 px-5 py-2 rounded text-white font-bold m-10" href="{% url 'login' %}">Login</a>
+
+</div>    
+
+
+{% endblock %}
